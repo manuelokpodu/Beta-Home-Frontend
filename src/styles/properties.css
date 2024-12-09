@@ -1,0 +1,88 @@
+.list-properties {
+  /* background-image: url("../assets/images/real.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 396.32px;
+  height: 297.24px;
+
+  border-radius: 15px 15px 0px 0px;
+}
+.featured h2 {
+  width: 96.49px;
+  height: 36.19px;
+  background-color: #3d9970;
+  border-radius: 2.89px;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+}
+.featured h3 {
+  width: 96.49px;
+  height: 35.61px;
+  background-color: #d3d3d3b2;
+  border-radius: 2.3px;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.property-divs {
+  flex-wrap: wrap;
+}
+.bottom-div {
+  width: 396.33px;
+  height: 248px;
+  border-radius: 0px 0px 9.17px 9.17px;
+  border: 0.92px solid #ddd8d8;
+}
+.bottom-contents h2 {
+  font-weight: 20.68px;
+  color: #444444;
+  font-weight: 600;
+}
+.bottom-contents p {
+  color: #666666;
+  font-weight: 400;
+  font-size: 14.93px;
+}
+.money h5 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #373737;
+}
+.page-numbers p {
+  width: 33.56px;
+  height: 32px;
+  border: 3px solid #3d9970;
+  padding: 2px, 10px, 2px, 10px;
+}
+.custom-select {
+  background-color: #f3f4f6; /* Light background color */
+  color: #717171; /* Text color */
+  border-radius: 5px; /* Add rounded corners */
+  padding: 5px 10px; /* Add some padding for aesthetics */
+  cursor: pointer; /* Cursor changes to pointer */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.custom-select option {
+  background-color: white; /* Option default background */
+  color: #717171; /* Option text color */
+  cursor: pointer; /* Cursor changes to pointer */
+}
+
+/* .propertycard {
+  width: 320px;
+  height: 545px;
+} */
+.slider-card-inner {
+  backdrop-filter: blur(4px);
+  height: 142px;
+}

@@ -1,0 +1,35 @@
+.footer-bg {
+  height: 541px;
+  background-color: #035a33;
+  margin-bottom: 0;
+}
+
+
+
+@media (max-width: 991px) {
+  .footer-description {
+    flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+  }
+  .footer-main-div {
+    flex-direction: column;
+  }
+  .footer-bg {
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    
+  }
+  .quick-links{
+    margin-top: 40px;
+  }
+
+  .details{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

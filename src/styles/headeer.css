@@ -1,0 +1,64 @@
+.header-bg {
+  background-image: url("../assets/images/headerbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto ;
+}
+
+.navbar .nav-link {
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
+}
+.form-hr {
+  width: 46px;
+  transform: rotate(90deg);
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 150px;
+}
+
+.bedroom-input {
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  width: 50px;
+  outline: none;
+  color: #787878;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #30343b;
+}
+
+.icon:hover {
+  color: #30343b; /* Change color on hover */
+}
+.find-button{
+  width: 297.39px;
+  height: 87px;
+  border-radius: 0px 10px 10px 0px ;
+   background-color:#3D9970 ;
+   border: none;
+}
+
+@media (max-width: 991px) {
+  .bg-form {
+    background-color: red;
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .ms-auto {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

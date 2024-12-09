@@ -1,0 +1,52 @@
+  <div
+              key={info._id}
+              className="card my-2 mx-auto rounded-top "
+              style={{ width: "20rem" }}
+            >
+              {/* top  div*/}
+              <div className="list-properties mt-5 p-4 d-flex justify-content-between   flex-column">
+                {" "}
+                <div className="d-flex justify-content-between align-items-center  featured">
+                  {" "}
+                  <h2>Featured</h2> <h3>{info.availability}</h3>
+                </div>
+                {/* icons */}
+                <div className="d-flex gap-3 justify-content-end align-items-end ">
+                  {" "}
+                  <img src={info.imgChain} alt="" className="img-fluid" />
+                  <img src={info.imgCamera} alt="" className="img-fluid" />
+                  <img src={info.imgPicture} alt="" className="img-fluid" />
+                </div>
+              </div>
+
+              {/* bottom div */}
+              <div className="bottom-div">
+                <div className="p-3 bottom-contents">
+                  <h4>{info.title}</h4>
+                  <p className="d-flex gap-3 align-items-center">
+                    <img className="w-100" src={info.image} alt="" />{" "}
+                    {info.location}
+                  </p>
+                  <div className="d-flex gap-5">
+                    <p className="d-flex gap-3 align-items-center">
+                      <img src={info.imgBed} alt="" /> {info.bedrooms}
+                    </p>
+                    <p className="d-flex gap-3 align-items-center">
+                      <img src={info.imgToilet} alt="" /> {info.bathrooms}
+                    </p>
+                  </div>
+
+                  <hr />
+                  <div className=" money mt-4 d-flex justify-content-between ">
+                    <h5 className="d-flex gap-1 align-items-center">
+                      <FaNairaSign /> <span>{info.price}</span>
+                    </h5>
+                    <div className="d-flex gap-3 align-items-center">
+                      <img src={info.imgArrow} alt="" className="img-fluid" />
+                      <img src={info.imgShuttle} alt="" className="img-fluid" />
+                      <img src={info.imglove} alt="" className="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
